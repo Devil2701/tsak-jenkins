@@ -1,0 +1,15 @@
+---
+ - name: playbook01
+   hosts: all
+   
+   vars:
+      A: "global msg"
+      
+   tasks:
+      - name: tsk1\
+        vars:
+          A: "local msg"
+        debug:
+          msg: "{{A}}"
+    
+...
