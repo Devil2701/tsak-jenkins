@@ -10,6 +10,5 @@
         vars:
           A: "local msg"
         debug:
-          msg: "{{A}}"
-    
+          msg: "{{A}}" 
 ...
